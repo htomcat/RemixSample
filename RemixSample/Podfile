@@ -6,6 +6,7 @@ target 'RemixSample' do
   use_frameworks!
 
   # Pods for RemixSample
+  pod 'Alamofire', '~> 4.7'
 
   target 'RemixSampleTests' do
     inherit! :search_paths
