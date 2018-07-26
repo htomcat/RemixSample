@@ -1,0 +1,3 @@
+[submodule "RemixSample/Remix"]
+	path = RemixSample/Remix
+	url = https://github.com/dcutting/Remix.git
