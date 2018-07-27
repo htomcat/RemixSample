@@ -4,6 +4,30 @@ PODS:
     - Entity/Core (= 0.0.1)
     - Entity/Tests (= 0.0.1)
   - Entity/Core (0.0.1)
+  - GroupSelectionFeature (0.0.1):
+    - GroupSelectionFeature/Core (= 0.0.1)
+    - GroupSelectionFeature/Fakes (= 0.0.1)
+    - GroupSelectionFeature/Tests (= 0.0.1)
+    - GroupSelectionFeature/UIKit (= 0.0.1)
+  - GroupSelectionFeature/Core (0.0.1):
+    - Entity/Core
+    - Service/GroupService
+    - Wireframe/Core
+  - GroupSelectionFeature/UIKit (0.0.1):
+    - GroupSelectionFeature/Core
+    - Wireframe/UIKit
+  - Service (0.0.1):
+    - Service/AdvertService (= 0.0.1)
+    - Service/GroupService (= 0.0.1)
+  - Service/AdvertService (0.0.1):
+    - Entity/Core
+    - Utility/Core
+  - Service/GroupService (0.0.1):
+    - Entity/Core
+    - Utility/Core
+  - Utility (0.0.1):
+    - Utility/Core (= 0.0.1)
+  - Utility/Core (0.0.1)
   - Wireframe (0.0.1):
     - Wireframe/Core (= 0.0.1)
     - Wireframe/Fakes (= 0.0.1)
@@ -15,6 +39,9 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.7)
   - Entity (from `./Remix/Shared/Entity`)
+  - GroupSelectionFeature (from `./Remix/Shared/GroupSelectionFeature`)
+  - Service (from `./Remix/Shared/Service`)
+  - Utility (from `./Remix/Shared/Utility`)
   - Wireframe (from `./Remix/Shared/Wireframe`)
 
 SPEC REPOS:
@@ -24,14 +51,23 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Entity:
     :path: "./Remix/Shared/Entity"
+  GroupSelectionFeature:
+    :path: "./Remix/Shared/GroupSelectionFeature"
+  Service:
+    :path: "./Remix/Shared/Service"
+  Utility:
+    :path: "./Remix/Shared/Utility"
   Wireframe:
     :path: "./Remix/Shared/Wireframe"
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   Entity: 289e8e8039a522a3ee2ed527779eb63ce7c81232
+  GroupSelectionFeature: 0e8aaf2294ad11b8689635093892578b586d2189
+  Service: 1743123d97a7590602e2202edd027d64db9c4f4d
+  Utility: b55eb858625344539020fe754410ded40c5bbfae
   Wireframe: eb57ab5e2c427b03042ab6880a37a6d7c2050bd4
 
-PODFILE CHECKSUM: c25a403997d2d50bf7d8b7eef5af8d2165f19b94
+PODFILE CHECKSUM: 6e3c7d18b5b88642a3fa25a2b89b8fa3b5414ab9
 
 COCOAPODS: 1.5.0

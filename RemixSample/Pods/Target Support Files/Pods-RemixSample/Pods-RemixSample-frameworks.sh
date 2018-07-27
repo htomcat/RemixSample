@@ -145,11 +145,17 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Entity/Entity.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GroupSelectionFeature/GroupSelectionFeature.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Service/Service.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Utility/Utility.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Wireframe/Wireframe.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Entity/Entity.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GroupSelectionFeature/GroupSelectionFeature.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Service/Service.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Utility/Utility.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Wireframe/Wireframe.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

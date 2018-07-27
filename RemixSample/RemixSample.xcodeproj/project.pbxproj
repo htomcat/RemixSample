@@ -323,12 +323,18 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-RemixSample/Pods-RemixSample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Entity/Entity.framework",
+				"${BUILT_PRODUCTS_DIR}/GroupSelectionFeature/GroupSelectionFeature.framework",
+				"${BUILT_PRODUCTS_DIR}/Service/Service.framework",
+				"${BUILT_PRODUCTS_DIR}/Utility/Utility.framework",
 				"${BUILT_PRODUCTS_DIR}/Wireframe/Wireframe.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Entity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GroupSelectionFeature.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Service.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Utility.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Wireframe.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

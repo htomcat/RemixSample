@@ -9,6 +9,9 @@ target 'RemixSample' do
   pod 'Alamofire', '~> 4.7'
   pod 'Entity', :path => './Remix/Shared/Entity'
   pod 'Wireframe', :path => './Remix/Shared/Wireframe'
+  pod 'GroupSelectionFeature', :path => './Remix/Shared/GroupSelectionFeature'
+  pod 'Service', :path => './Remix/Shared/Service'
+  pod 'Utility', :path => './Remix/Shared/Utility'
 
   target 'RemixSampleTests' do
     inherit! :search_paths
