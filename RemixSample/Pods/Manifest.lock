@@ -1,3 +1,26 @@
-PODFILE CHECKSUM: 0edddbaf23badfb68d1e569ed49d7220c063ad36
+PODS:
+  - Alamofire (4.7.2)
+  - Entity (0.0.1):
+    - Entity/Core (= 0.0.1)
+    - Entity/Tests (= 0.0.1)
+  - Entity/Core (0.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Entity (from `./Remix/Shared/Entity/`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  Entity:
+    :path: "./Remix/Shared/Entity/"
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Entity: 289e8e8039a522a3ee2ed527779eb63ce7c81232
+
+PODFILE CHECKSUM: 0e89e984d93468b8c4b1be9f5edaa4c45d473b9f
 
 COCOAPODS: 1.5.0

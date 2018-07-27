@@ -7,6 +7,7 @@ target 'RemixSample' do
 
   # Pods for RemixSample
   pod 'Alamofire', '~> 4.7'
+  pod 'Entity', :path => './Remix/Shared/Entity/'
 
   target 'RemixSampleTests' do
     inherit! :search_paths
