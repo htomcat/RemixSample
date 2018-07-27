@@ -1,0 +1,6 @@
+framework module Wireframe {
+  umbrella header "Wireframe-umbrella.h"
+
+  export *
+  module * { export * }
+}

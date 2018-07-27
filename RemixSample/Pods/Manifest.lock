@@ -4,10 +4,18 @@ PODS:
     - Entity/Core (= 0.0.1)
     - Entity/Tests (= 0.0.1)
   - Entity/Core (0.0.1)
+  - Wireframe (0.0.1):
+    - Wireframe/Core (= 0.0.1)
+    - Wireframe/Fakes (= 0.0.1)
+    - Wireframe/UIKit (= 0.0.1)
+  - Wireframe/Core (0.0.1)
+  - Wireframe/UIKit (0.0.1):
+    - Wireframe/Core
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
-  - Entity (from `./Remix/Shared/Entity/`)
+  - Entity (from `./Remix/Shared/Entity`)
+  - Wireframe (from `./Remix/Shared/Wireframe`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -15,12 +23,15 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   Entity:
-    :path: "./Remix/Shared/Entity/"
+    :path: "./Remix/Shared/Entity"
+  Wireframe:
+    :path: "./Remix/Shared/Wireframe"
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   Entity: 289e8e8039a522a3ee2ed527779eb63ce7c81232
+  Wireframe: eb57ab5e2c427b03042ab6880a37a6d7c2050bd4
 
-PODFILE CHECKSUM: 0e89e984d93468b8c4b1be9f5edaa4c45d473b9f
+PODFILE CHECKSUM: c25a403997d2d50bf7d8b7eef5af8d2165f19b94
 
 COCOAPODS: 1.5.0
